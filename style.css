@@ -1,3 +1,4 @@
+<!-- base -->
 #more		{
 	color:red;
 }
@@ -12,19 +13,42 @@
 	background-color: white;
 	color: black;
 }
-#jum2		{
-	background-image: url('asanoha-400px.png');
-	background-attachment:fixed;
-	min-height:450px;
-	margin-bottom:0px;
-}
 #spacer		{
-	min-height:10px;
-	background-color:black;
+	min-height:20px;
+	
 }
 #spacer2	{
-	min-height:25px;
+	min-height:10px;
+	background-color: black;
 }
+footer		{
+	background-image: url('footer.png');
+	min-height:150px;
+	color:white;
+	text-align:center;
+}
+<!-- home -->
+#img1 		{
+	height: 350px;
+	width: 490px;
+}
+#img2 		{
+	height: 350px;
+	width: 400px;
+}
+#img3 		{
+	height: 350px;
+	width: 600px;
+}
+.slider		{
+	margin: 0 auto;
+	width:600px;
+}
+li			{
+	font-size: 18px;
+}
+
+<!-- Cv -->
 #contact	{
 	border: 5px solid black;
 	background-color: white;
@@ -35,9 +59,21 @@ h3			{
 #work		{
 	text-align: center;
 }
-footer		{
-	background-image: url('footer.png');
-	min-height:150px;
-	color:white;
-	text-align:center;
+#topic		{
+	text-decoration: underline;
+}
+#cv			{
+	text-align: center;
+	font-size: 18px;
+}
+#headin		{
+	text-decoration: underline;
+}
+<!--portfolio-->
+#video		{
+		margin: 0 auto;
+		min-height: 80px;		
+		width: 50%;
+		float: left;
+		
 }
