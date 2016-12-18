@@ -29,20 +29,20 @@ footer		{
 }
 <!-- home -->
 #img1 		{
-	height: 350px;
-	width: 490px;
+	max-height: 350px;
+	max-width: 490px;
 }
 #img2 		{
-	height: 350px;
-	width: 400px;
+	max-height: 350px;
+	max-width: 400px;
 }
 #img3 		{
-	height: 350px;
-	width: 600px;
+	max-height: 350px;
+	max-width: 600px;
 }
 .slider		{
 	margin: 0 auto;
-	width:600px;
+	max-width:600px;
 }
 li			{
 	font-size: 18px;
